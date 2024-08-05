@@ -51,7 +51,7 @@ apache-airflow
 
    ![Airflow Web Interface](https://github.com/AbdelrhmanSror/-ETL-Server-Access-Log-Processing-with-Apache-Airflow/blob/main/airflow1.png)
    
-   The main page of the Airflow web interface shows our DAG on the first line, indicating it has successfully run twice. To run the DAG manually, click the "Run" button in the actions column.
+   The main page of the Airflow web interface shows our DAG on the first line, indicating it has successfully run 3 times. To run the DAG manually, click the "Run" button in the actions column.
 
 7. **Check Logs:**
    To check the logs for the specified DAG, go to the Airflow logs directory and search for `dag_id=ETL_Server_Access_Log`. Inside this directory, you will find logs related to this DAG, split into runs where each directory refers to a single run. By digging into it, you will find the logs specific to each run.
