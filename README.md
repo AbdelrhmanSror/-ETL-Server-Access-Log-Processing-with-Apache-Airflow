@@ -1,6 +1,4 @@
-### Project Title: ETL Server Access Log Processing with Apache Airflow
-
-#### Project Description
+## Project Description
 This project demonstrates an ETL (Extract, Transform, Load) pipeline for processing server access logs using Apache Airflow. The pipeline consists of multiple tasks that download, extract, transform, and load data, along with a final check step to ensure the integrity of the processed data. The data is processed from a web server access log file hosted online, and the pipeline is scheduled to run daily.
 
 #### Requirements
